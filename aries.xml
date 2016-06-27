@@ -5,6 +5,8 @@
 
 
 <remove-project name="platform/hardware/qcom/camera" />
+<project path="vendor/sony" name="aries-blobs-sony" groups="device" remote="pabx" revision="lp6.0" />
+<project path="vendor/qcom/prebuilt" name="aries-blobs-qc" groups="device" remote="pabx" revision="lp6.0" />
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="m-mr1" />  
 <project path="device/sony/aries" name="device-sony-aries" groups="device" remote="pabx" revision="lp6.0" />
 <project path="device/sony/shinano" name="device-sony-shinano" groups="device" remote="pabx" revision="lp6.0" />
